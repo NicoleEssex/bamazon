@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bamazon</title>
+</head>
+<body>
+    <h1>Screen-shots of working Bamazon app</h1>
+    <h5>Node showing list of products from sql database and first user prompt using inquirer package.</h5>
+    <img src="assets/node-first-prompt.png" alt="screen shot of node application step 1">
+    <br>
+    <br>
+    <h5>Node displaying second prompt with answers from user input for both. After the user places their order node retrieves the product price from the sql database and multiplies that figure with the answer from the second user prompt. After the order has been fulfilled the database is then updated to reduce the stock_quantity by how many the user purchased.</h5>
+    <img src="assets/node-id-8-order.png" alt="screen shot of node application step 2">
+    <br>
+    <br>
+    <h5>MySql database before the order was placed. Id 8 is the row that changes in this example.</h5>
+    <img src="assets/sql-Pre-id-8-order.png" alt="screen shot of node application step 3">
+    <br>
+    <br>
+    <h5>MySql database after the order was placed. Id 8 is the row that changes in this example.</h5>
+    <img src="assets/sql-after-id-8-order.png" alt="screen shot of node application step 3">
+    <br>
+    <br>
+    <h5>Order that is unable to be fulfilled due to low stock_quantity in the sql database.</h5>
+    <img src="assets/node-order-low-inventory.png" alt="screen shot of node application step 4">
+    <br>
+    <h5>MySql database before the order was placed showing not enough units available to fulfill order.</h5>
+    <img src="assets/sql-pre-id-8-order.png" alt="screen shot of node application step 5">
+    <br>
+    <br>
+    <h5>Node app repeats user prompts after order is fulfilled or not.</h5>
+    <img src="assets/user-prompt-repeat-2.png" alt="screen shot of node application step 6">
+    <br>
+    <img src="assets/user-prompt-repeat-3.png" alt="screen shot of node application step 7">
+    <br>
+
+</body>
+</html>

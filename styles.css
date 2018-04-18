@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+h5 {
+    text-justify: auto;
+    color: darkblue;
+    margin-bottom: 4px;   
+}
+
+img {
+    background-color: lightblue;
+    /* border: lightblue, solid, 3px; */
+    padding: 5px;
+}
